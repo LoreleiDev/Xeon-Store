@@ -91,7 +91,7 @@ export default function Navbar() {
               {/* Dropdown Menu */}
               {isProfileOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-[#111827] border-2 border-[#00666D] rounded-xl shadow-xl shadow-[#00666D]/20 py-2 animate-in fade-in slide-in-from-top-2 duration-200">
-                  <Link to="/profile" className="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-300 hover:bg-[#0A0F1C] hover:text-[#00EEFF] transition-colors">
+                  <Link to="/login" className="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-300 hover:bg-[#0A0F1C] hover:text-[#00EEFF] transition-colors">
                     <User size={16} /> Profil Saya
                   </Link>
                   <Link to="/xcoins" className="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-300 hover:bg-[#0A0F1C] hover:text-[#00EEFF] transition-colors">
